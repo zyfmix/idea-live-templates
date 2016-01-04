@@ -176,9 +176,9 @@
       <option name="OTHER" value="false" />
     </context>
   </template>
-  <template name="c+" value="//M +++>: $date$ $c+$ &#10; &#10; //M +++<" description="adds customer //M+++ <~> Comments" toReformat="true" toShortenFQNames="true">
+  <template name="cmadd" value="//M +++>: $date$ $cmadd$ &#10; &#10; //M +++<" description="adds customer //M+++ <~> Comments" toReformat="true" toShortenFQNames="true">
     <variable name="date" expression="date()" defaultValue="" alwaysStopAt="false" />
-    <variable name="c+" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="cmadd" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="false" />
       <option name="HTML" value="false" />
@@ -199,9 +199,9 @@
       <option name="OTHER" value="false" />
     </context>
   </template>
-  <template name="c-" value="//M --->: $date$ $c-$ &#10; &#10; //M ---<" description="adds customer //M--- <~> Comments" toReformat="true" toShortenFQNames="true">
+  <template name="cmminus" value="//M --->: $date$ $cmminus$ &#10; &#10; //M ---<" description="adds customer //M--- <~> Comments" toReformat="true" toShortenFQNames="true">
     <variable name="date" expression="date()" defaultValue="" alwaysStopAt="false" />
-    <variable name="c-" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="cmminus" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="false" />
       <option name="HTML" value="false" />
